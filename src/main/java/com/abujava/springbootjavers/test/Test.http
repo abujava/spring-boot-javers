@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/person
+Content-Type: application/json
+
+{
+  "firstName": "Abu",
+  "lastName": "Java",
+  "email": "abujava@mail.ru"
+}
+
+###
+PUT http://localhost:8080/api/person/1
+Content-Type: application/json
+
+{
+  "firstName": "Ibn",
+  "lastName": "Java",
+  "email": "abujava@mail.ru"
+}
